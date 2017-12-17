@@ -1,9 +1,10 @@
 var showElementsOnScreen =  function () {
     document.querySelectorAll(".aos-fade").forEach(function (element) {
-        if (z(element).isOnScreen()) {
-            element.classList.add("aos-animate")
+        var zElement = z(element);
+        if (zElement.isOnScreen()) {
+            zElement.addClass("aos-animate")
         } else {
-            element.classList.remove("aos-animate")
+            zElement.removeClass("aos-animate")
         }
     })
 };
