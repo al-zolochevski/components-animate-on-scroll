@@ -6,50 +6,32 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="animate-on-scroll.css">
+    
     <style>
         .demo {
             padding: 20px;
             margin: 300px 100px;
             border: 2px solid black;
         }
-        
-        .aos-fade-up {
-            opacity: 0;
-            transform: translate(0, 50px);
-            
-            transition: 1s;
-        }
-        
-        
-        .aos-fade-down {
-            opacity: 0;
-            transform: translate(0, -50px);
-            transition: 1s;
-        }
-        
-        .aos-animate {
-            opacity: 1;
-            transform: translate(0, 0);
-        }
     </style>
 </head>
 <body>
 
 
-<h1 class="aos-fade-up demo">I am item 1</h1>
-<h1 class="aos-fade-down demo">I am item 2</h1>
-<h1 class="aos-fade-up demo">I am item 3</h1>
-<h1 class="aos-fade-up demo">I am item 4</h1>
-<h1 class="aos-fade-up demo">I am item 5</h1>
-<h1 class="aos-fade-up demo">I am item 6</h1>
-<h1 class="aos-fade-up demo">I am item 7</h1>
-<h1 class="aos-fade-up demo">I am item 8</h1>
-<h1 class="aos-fade-up demo">I am item 9</h1>
+<h1 class="aos-fade aos-fade--up demo">I am item 1</h1>
+<h1 class="aos-fade aos-fade--down demo">I am item 2</h1>
+<h1 class="aos-fade aos-fade--up demo">I am item 3</h1>
+<h1 class="aos-fade aos-fade--up demo">I am item 4</h1>
+<h1 class="aos-fade aos-fade--up demo">I am item 5</h1>
+<h1 class="aos-fade aos-fade--up demo">I am item 6</h1>
+<h1 class="aos-fade aos-fade--up demo">I am item 7</h1>
+<h1 class="aos-fade aos-fade--up demo">I am item 8</h1>
+<h1 class="aos-fade aos-fade--up demo">I am item 9</h1>
 
 
 <script src="../../my-libs/z-js/z.js"></script>
-<script src="demo.js"></script>
+<script src="animate-on-scroll.js"></script>
 <!-- TODO: add window 'on scroll' handler which add .aos-animate to all .aos-fade elements -->
-
 </body>
 </html>
