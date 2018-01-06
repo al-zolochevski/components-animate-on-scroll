@@ -6,40 +6,38 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        .demo {
+            padding: 20px;
+            margin: 300px 100px;
+            border: 2px solid black;
+        }
+        
+        .aos-fade-up {
+            opacity: 0;
+            transform: translate(0, 50px);
+            
+            transition: 1s;
+        }
+        
+        .aos-animate {
+            opacity: 1;
+            transform: translate(0, 0);
+        }
+    </style>
 </head>
 <body>
 
-<style>
-    .demo {
-        padding: 20px;
-        margin: 300px 100px;
-        border: 2px solid black;
-    }
-    
-    .aos-fade {
-        opacity: 0;
-        transform: translateY(100px);
-        transition: 1s;
-    }
-    
-    .aos-animate {
-        opacity: 1;
-        transform: translate(0, 0) scale(1);
-    }
-</style>
 
-
-
-<h1 class="aos-fade demo">I am item 1</h1>
-<h1 class="aos-fade demo">I am item 2</h1>
-<h1 class="aos-fade demo">I am item 3</h1>
-<h1 class="aos-fade demo">I am item 4</h1>
-<h1 class="aos-fade demo">I am item 5</h1>
-<h1 class="aos-fade demo">I am item 6</h1>
-<h1 class="aos-fade demo">I am item 7</h1>
-<h1 class="aos-fade demo">I am item 8</h1>
-<h1 class="aos-fade demo">I am item 9</h1>
-<!--<h1 class="aos-animate aos-fade demo">I am item 3</h1>-->
+<h1 class="aos-fade-up demo">I am item 1</h1>
+<h1 class="aos-fade-up demo">I am item 2</h1>
+<h1 class="aos-fade-up demo">I am item 3</h1>
+<h1 class="aos-fade-up demo">I am item 4</h1>
+<h1 class="aos-fade-up demo">I am item 5</h1>
+<h1 class="aos-fade-up demo">I am item 6</h1>
+<h1 class="aos-fade-up demo">I am item 7</h1>
+<h1 class="aos-fade-up demo">I am item 8</h1>
+<h1 class="aos-fade-up demo">I am item 9</h1>
 
 
 <script src="../../my-libs/z-js/z.js"></script>
